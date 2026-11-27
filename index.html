@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Ghani Catering – Homemade Food &amp; Wines</title>
+<meta name="description" content="Ghani Catering: homemade catering for weddings, birthdays and family functions, plus grape, ginger, pomegranate and chilli wines.">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;1,500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+@property --a{syntax:"<angle>";initial-value:0deg;inherits:false}
+:root{--g:#8a1f2d;--g2:#2a0d12;--gold:#f2a93b;--bg:#fff8ee;--txt:#2b1d1a;--card:#ffffff;--line:#f0dfc8;--mut:#7a6a62;--glass:#fff8eeb3;color-scheme:light;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);box-sizing:border-box}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--g:#b3392b;--bg:#1a0f0e;--txt:#fbefe0;--card:#2a1816;--line:#4a2e29;--mut:#c9b4a8;--glass:#2a1816b3;color-scheme:dark}}
+:root[data-theme="dark"]{--g:#b3392b;--bg:#1a0f0e;--txt:#fbefe0;--card:#2a1816;--line:#4a2e29;--mut:#c9b4a8;--glass:#2a1816b3;color-scheme:dark}
+*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--txt);font:16px/1.65 Inter,system-ui,sans-serif;overflow-x:hidden}
+h1,h2,h3{font-family:"Playfair Display",Georgia,serif;line-height:1.15;margin:0 0 .5em}h2{font-size:clamp(1.9rem,4.5vw,3rem)}
+a{color:inherit}.wrap{max-width:1160px;margin:auto;padding:0 20px}.page{display:none;padding-bottom:70px}.page.on{display:block;animation:in .6s both}
+@keyframes in{from{opacity:0;transform:translateY(18px)}}
+.eb{color:var(--gold);letter-spacing:.2em;text-transform:uppercase;font-size:.75rem;font-weight:600}.sub{color:var(--mut);max-width:640px}.note{font-size:.8rem;color:var(--mut);font-style:italic}
+#prog{position:fixed;top:0;left:0;height:3px;width:100%;background:linear-gradient(90deg,var(--gold),#e8553b);transform-origin:0 50%;transform:scaleX(0);z-index:60}
+@supports(animation-timeline:scroll()){#prog{animation:pg linear;animation-timeline:scroll(root)}@keyframes pg{to{transform:scaleX(1)}}}
+nav{position:sticky;top:env(safe-area-inset-top,0px);z-index:50;background:var(--glass);backdrop-filter:blur(14px) saturate(1.4);border-bottom:1px solid var(--line)}
+nav .wrap{display:flex;align-items:center;gap:16px;height:66px}.logo{font:700 1.3rem "Playfair Display",serif;text-decoration:none;margin-right:auto;background:linear-gradient(90deg,var(--g),var(--gold));-webkit-background-clip:text;background-clip:text;color:transparent}
+nav ul{display:flex;gap:4px;list-style:none;margin:0;padding:0}nav ul a{display:block;padding:8px 13px;border-radius:99px;text-decoration:none;font-size:.88rem;font-weight:500;transition:.25s}
+nav ul a:hover,nav ul a.cur{background:var(--g);color:#fff}
+#bk{position:relative;border:1.5px solid var(--line);background:var(--card);color:var(--txt);border-radius:99px;padding:8px 14px;cursor:pointer;font:600 .85rem Inter}#bk b{background:var(--gold);color:#111;border-radius:99px;padding:1px 7px;margin-left:4px}
+#mb{display:none;background:none;border:0;font-size:1.6rem;color:var(--txt);cursor:pointer}
+@media(max-width:900px){#mb{display:block}nav ul{position:absolute;top:66px;left:0;right:0;flex-direction:column;background:var(--bg);padding:10px 20px;border-bottom:1px solid var(--line);display:none}nav ul.open{display:flex}}
+.btn{display:inline-flex;gap:8px;align-items:center;border:0;cursor:pointer;font:600 .92rem Inter;padding:13px 24px;border-radius:99px;text-decoration:none;transition:.3s;position:relative}
+.btn:hover{transform:translateY(-3px);box-shadow:0 12px 26px #0003}.b1{background:var(--gold);color:#1a1a12}.b2{border:1.5px solid #fff9;color:#fff;backdrop-filter:blur(6px)}.b3{background:var(--g);color:#fff}.wa{background:#25d366;color:#05361a}.sm{padding:9px 16px;font-size:.82rem}
+.hero{min-height:92vh;display:grid;align-items:center;color:#fff;position:relative;overflow:hidden;background:radial-gradient(600px circle at var(--mx,70%) var(--my,30%),#f2a93b66,transparent 60%),conic-gradient(from var(--a) at 70% 40%,#2a0d12,#8a1f2d,#c4472b,#2a0d12);animation:spin 18s linear infinite}
+@keyframes spin{to{--a:360deg}}
+.hero .wrap{display:grid;grid-template-columns:1.1fr .9fr;gap:30px;align-items:center}@media(max-width:860px){.hero .wrap{grid-template-columns:1fr}}
+.hero h1{font-size:clamp(2.6rem,7vw,5rem)}.hero h1 em{color:var(--gold)}.hero p{max-width:520px;opacity:.9;font-size:1.1rem}.row{display:flex;flex-wrap:wrap;gap:12px;margin-top:26px}
+.stage{position:relative;aspect-ratio:1;max-width:460px;margin:auto;width:100%}.stage svg{width:100%;height:100%;filter:drop-shadow(0 30px 40px #0008);animation:fl 7s ease-in-out infinite}
+@keyframes fl{50%{transform:translateY(-14px) rotate(2deg)}}
+.mq{overflow:hidden;background:var(--g2);color:var(--gold);padding:14px 0;white-space:nowrap;font:italic 500 1.2rem "Playfair Display"}.mq div{display:inline-block;animation:mq 30s linear infinite}@keyframes mq{to{transform:translateX(-50%)}}
+section{padding:70px 0}.alt{background:color-mix(in srgb,var(--gold) 9%,var(--bg))}
+.grid{display:grid;gap:22px;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));margin-top:30px}
+.card{background:var(--card);border-radius:22px;overflow:hidden;display:flex;flex-direction:column;position:relative;border:1px solid transparent;background:linear-gradient(var(--card),var(--card)) padding-box,conic-gradient(from var(--a),var(--line),var(--gold),var(--line)) border-box;transition:transform .25s,box-shadow .3s;transform:perspective(900px) rotateX(var(--rx,0)) rotateY(var(--ry,0))}
+.card:hover{box-shadow:0 22px 50px #0003;animation:spin 5s linear infinite}
+.art{aspect-ratio:4/3;display:grid;place-items:center;background:radial-gradient(circle at 50% 40%,color-mix(in srgb,var(--c,#d4af5a) 35%,var(--card)),var(--card))}.art svg{width:62%;height:90%}
+.cb{padding:18px;display:flex;flex-direction:column;gap:6px;flex:1}.cb h3{font-size:1.2rem;margin:0}.cb p{margin:0;color:var(--mut);font-size:.9rem;flex:1}
+.tag{font-size:.7rem;font-weight:600;padding:2px 10px;border-radius:99px;width:fit-content}.veg{background:#d9f0dd;color:#1d5a2b}.nv{background:#f6dcd6;color:#8a2c1b}.wn{background:#eadcf3;color:#4b1d6b}
+.tools{display:flex;gap:10px;flex-wrap:wrap;margin-top:24px}.tools input{flex:1;min-width:200px}.chips button{border:1.5px solid var(--line);background:var(--card);color:var(--txt);border-radius:99px;padding:8px 16px;cursor:pointer;font:500 .85rem Inter}.chips button.on{background:var(--g);color:#fff;border-color:var(--g)}
+input,select,textarea{font:inherit;color:var(--txt);background:var(--card);border:1.5px solid var(--line);border-radius:12px;padding:12px 14px;width:100%}input:focus,select:focus,textarea:focus{outline:2px solid var(--gold)}
+.split{display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:center}@media(max-width:800px){.split{grid-template-columns:1fr}}
+.stat{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:14px;margin-top:24px}.stat div{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:18px;text-align:center}.stat b{display:block;font:700 1.6rem "Playfair Display";color:var(--gold)}
+.wine-hero{background:linear-gradient(135deg,#2a0f24,#5b1a3a 50%,#a3122e);color:#fff;padding:80px 0 50px}
+form{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:26px;background:var(--glass);backdrop-filter:blur(12px);padding:26px;border-radius:26px;border:1px solid var(--line)}form .f{grid-column:1/-1}@media(max-width:640px){form{grid-template-columns:1fr}}
+label{font-size:.84rem;font-weight:600;display:block;margin-bottom:4px}.err{color:#d6452f;font-size:.76rem;min-height:1em}
+#sum{display:none;margin-top:20px;border:2px solid var(--gold);border-radius:20px;padding:22px;background:var(--card)}#sum pre{white-space:pre-wrap;font:inherit}
+.gal{columns:3 200px;gap:14px;margin-top:28px}.gal div{break-inside:avoid;margin-bottom:14px;border-radius:20px;overflow:hidden;transition:.4s}.gal div:hover{transform:scale(1.03) rotate(-1deg)}.gal svg{display:block;width:100%}
+.ph{border:2px dashed var(--line);border-radius:20px;padding:22px;color:var(--mut)}
+footer{background:var(--g2);color:#e9e4d2;padding:50px 0 30px}footer .wrap{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:30px}footer a{color:var(--gold);display:block;text-decoration:none;padding:2px 0}
+#dr{position:fixed;top:0;right:0;height:100%;width:min(400px,100%);background:var(--bg);z-index:80;transform:translateX(105%);transition:.4s cubic-bezier(.2,.8,.2,1);padding:24px;overflow:auto;box-shadow:-20px 0 60px #0005;border-left:1px solid var(--line)}#dr.on{transform:none}
+.it{display:flex;gap:10px;align-items:center;justify-content:space-between;border-bottom:1px solid var(--line);padding:10px 0}.it button{border:1px solid var(--line);background:var(--card);color:var(--txt);border-radius:8px;width:28px;height:28px;cursor:pointer}
+#gate{position:fixed;inset:0;z-index:100;background:#0c0509e6;backdrop-filter:blur(10px);display:none;place-items:center;color:#fff;text-align:center;padding:20px}#gate.on{display:grid}
+.fab{position:fixed;right:18px;bottom:calc(18px + env(safe-area-inset-bottom,0px));z-index:70;width:60px;height:60px;border-radius:50%;background:#25d366;display:grid;place-items:center;font-size:1.8rem;text-decoration:none;animation:pl 2.5s infinite}@keyframes pl{50%{box-shadow:0 0 0 16px #25d36622}}
+#top{position:fixed;left:18px;bottom:calc(18px + env(safe-area-inset-bottom,0px));z-index:70;display:none;width:46px;height:46px;border-radius:50%;border:0;background:var(--g);color:#fff;cursor:pointer}
+#toast{position:fixed;top:84px;left:50%;transform:translate(-50%,-20px);background:var(--g);color:#fff;padding:12px 22px;border-radius:14px;opacity:0;transition:.3s;z-index:90;pointer-events:none}#toast.on{opacity:1;transform:translate(-50%,0)}
+.rv{opacity:0;transform:translateY(28px);transition:.8s}.rv.in{opacity:1;transform:none}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}.rv{opacity:1;transform:none}}
+</style></head><body>
+<div id="prog"></div>
+<nav><div class="wrap"><a class="logo" href="#home">Ghani Catering</a>
+<ul id="nl"></ul><button id="bk" aria-label="Open enquiry list">🧺 List<b id="cn">0</b></button><button id="mb" aria-label="Menu">☰</button></div></nav>
+
+<main>
+<div class="page" id="p-home">
+<header class="hero"><div class="wrap"><div><span class="eb">Homemade · Family-run · Since [year]</span>
+<h1>Food &amp; wines made <em>the homemade way</em></h1>
+<p>Ghani Catering serves weddings, birthdays and family functions, and bottles homemade grape, ginger, pomegranate and chilli wines.</p>
+<div class="row"><a class="btn b1" href="#menu">Explore Our Menu</a><a class="btn b2" href="#catering">Book Catering</a><a class="btn b2" href="#wines">🍷 Our Wines</a></div></div>
+<div class="stage" id="hs"></div></div></header>
+<div class="mq"><div id="mq"></div></div>
+<section><div class="wrap"><span class="eb">What we cook</span><h2>Our food categories</h2><div class="grid" id="cats"></div></div></section>
+<section class="alt"><div class="wrap"><span class="eb">Sample data</span><h2>Featured dishes</h2><p class="note">Sample dishes and artwork. The owner can replace them with real photos and prices.</p><div class="grid" id="feat"></div></div></section>
+<section><div class="wrap"><span class="eb">Homemade wines</span><h2>Four signature wines</h2><div class="grid" id="wfeat"></div></div></section>
+<section class="alt"><div class="wrap"><span class="eb">Why us</span><h2>Why choose Ghani?</h2><div class="grid" id="why"></div></div></section>
+<section><div class="wrap"><span class="eb">Testimonials</span><h2>Customer words</h2><div class="grid"><div class="ph">[Real customer testimonial placeholder]</div><div class="ph">[Real customer testimonial placeholder]</div><div class="ph">[Real customer testimonial placeholder]</div></div></div></section>
+</div>
+
+<div class="page" id="p-menu"><section><div class="wrap"><span class="eb">Menu</span><h2>Browse our food</h2><p class="note">Sample menu. Prices show only when the owner adds them.</p>
+<div class="tools"><input id="q" type="search" placeholder="Search dishes…" aria-label="Search"></div><div class="tools chips" id="mc"></div><div class="grid" id="mg"></div></div></section></div>
+
+<div class="page" id="p-wines"><div class="wine-hero"><div class="wrap"><span class="eb">Homemade wines</span><h1 style="font-size:clamp(2.4rem,6vw,4.2rem)">Grape, ginger, pomegranate &amp; chilli</h1><p class="sub" style="color:#ffffffcc">Small-batch homemade wines. 21+ only. Please drink responsibly.</p></div></div>
+<section><div class="wrap"><div class="grid" id="wg"></div><p class="note" style="margin-top:20px">Prices, bottle sizes and availability are confirmed by the owner on WhatsApp.</p></div></section></div>
+
+<div class="page" id="p-catering"><section><div class="wrap"><span class="eb">Catering</span><h2>Book catering</h2>
+<p class="sub"><strong>Note:</strong> submitting an enquiry does not confirm a booking. The owner must confirm availability and pricing.</p>
+<div class="grid" id="occ"></div>
+<form id="bf" novalidate>
+<div><label for="n">Name *</label><input id="n" required autocomplete="name"><div class="err"></div></div>
+<div><label for="p">Phone *</label><input id="p" type="tel" required inputmode="tel"><div class="err"></div></div>
+<div><label for="e">Email (optional)</label><input id="e" type="email"><div class="err"></div></div>
+<div><label for="t">Event type *</label><select id="t" required></select><div class="err"></div></div>
+<div><label for="d">Event date *</label><input id="d" type="date" required><div class="err"></div></div>
+<div><label for="tm">Event time *</label><input id="tm" type="time" required><div class="err"></div></div>
+<div><label for="g">Guests *</label><input id="g" type="number" min="1" required><div class="err"></div></div>
+<div><label for="fp">Food type *</label><select id="fp" required><option value="">Select…</option><option>Vegetarian</option><option>Non-Vegetarian</option><option>Both</option></select><div class="err"></div></div>
+<div class="f"><label for="pr">Food preferences</label><textarea id="pr" rows="2"></textarea></div>
+<div class="f"><label for="l">Location *</label><input id="l" required><div class="err"></div></div>
+<div class="f"><label for="a">Additional requirements</label><textarea id="a" rows="2"></textarea></div>
+<div class="f"><label><input type="checkbox" id="inc" style="width:auto"> Include my enquiry list items</label></div>
+<div class="f"><button class="btn b3" type="submit">Generate booking summary</button></div></form>
+<div id="sum"><h3>Review your enquiry</h3><pre id="st"></pre><a id="sl" class="btn wa" target="_blank" rel="noopener">Send on WhatsApp</a><p class="note">WhatsApp opens pre-filled. You can edit before sending.</p></div></div></section></div>
+
+<div class="page" id="p-gallery"><section><div class="wrap"><span class="eb">Gallery</span><h2>From our kitchen</h2><p class="note">Demo artwork. The owner can swap in real photos.</p><div class="gal" id="gl"></div></div></section></div>
+
+<div class="page" id="p-about"><section><div class="wrap split"><div><span class="eb">Our story</span><h2>A family kitchen, shared with yours</h2><p class="sub">Ghani Catering is a family-run business that cooks food the homemade way, from everyday meals to big celebrations, and makes small-batch wines from grapes, ginger, pomegranate and chilli. [Owner: add your real story here.]</p>
+<div class="stat"><div><b>Veg</b>&amp; Non-veg</div><div><b>4</b>Wines</div><div><b>All</b>Occasions</div></div></div><div class="stage" id="as"></div></div></section></div>
+
+<div class="page" id="p-contact"><section><div class="wrap"><span class="eb">Contact</span><h2>Let’s talk food</h2><p>📞 <a data-b="tel"></a><br>📍 <a data-b="map" target="_blank" rel="noopener">Open in Google Maps</a><br>🕒 Opening hours: [add hours]</p>
+<div class="tools" id="cw"></div></div></section></div>
+
+<div class="page" id="p-privacy"><section><div class="wrap"><h2>Privacy policy</h2><p class="sub">Details you enter are used only to prepare your WhatsApp enquiry. This site does not store them. [Owner: review and adapt.]</p></div></section></div>
+<div class="page" id="p-terms"><section><div class="wrap"><h2>Terms &amp; conditions</h2><p class="sub">Enquiries are not confirmed bookings. Availability and prices are confirmed by the owner. Wines are for adults aged 21+ only; the owner is responsible for holding any licences required to sell them. [Owner: review and adapt.]</p></div></section></div>
+</main>
+
+<footer><div class="wrap"><div><h3>Ghani Catering</h3><p>Homemade food and wines for every celebration.</p></div><div id="fl"></div><div>📞 <a data-b="tel"></a><a data-b="map" target="_blank" rel="noopener">📍 Find us on Google Maps</a></div></div></footer>
+<aside id="dr" aria-label="Enquiry list"><button class="btn sm b3" id="dx">Close ✕</button><h3 style="margin-top:18px">Your enquiry list</h3><div id="di"></div><a id="ds" class="btn wa" target="_blank" rel="noopener" style="margin-top:16px">Send list on WhatsApp</a></aside>
+<div id="gate"><div><h2>Are you 21 or older?</h2><p>Our wines are for adults only.</p><div class="row" style="justify-content:center"><button class="btn b1" id="ay">Yes, I’m 21+</button><a class="btn b2" href="#home">No</a></div></div></div>
+<a class="fab" data-m="Hello Ghani Catering! I have an enquiry." target="_blank" rel="noopener" aria-label="Chat on WhatsApp">💬</a><button id="top" aria-label="Back to top">↑</button><div id="toast" role="status"></div>
+<script>
+const C={num:"919731418115",show:"9731418115",map:"https://maps.app.goo.gl/qwa4mxX4FYxNBpTSA"};
+const W=m=>`https://wa.me/${C.num}?text=${encodeURIComponent(m)}`,$=s=>document.querySelector(s),E=s=>String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const pages=[["home","Home"],["menu","Menu"],["wines","Wines"],["catering","Catering"],["gallery","Gallery"],["about","About"],["contact","Contact"]];
+$("#nl").innerHTML=pages.map(p=>`<li><a href="#${p[0]}" data-p="${p[0]}">${p[1]}</a></li>`).join("");
+$("#fl").innerHTML=pages.map(p=>`<a href="#${p[0]}">${p[1]}</a>`).join("")+`<a href="#privacy">Privacy policy</a><a href="#terms">Terms &amp; conditions</a>`;
+document.querySelectorAll("[data-b=tel]").forEach(a=>{a.href="tel:+"+C.num;a.textContent=C.show});document.querySelectorAll("[data-b=map]").forEach(a=>a.href=C.map);
+/* Original SVG artwork */
+const bowl=(c1,c2,c3)=>`<svg viewBox="0 0 200 170"><ellipse cx="100" cy="150" rx="78" ry="10" fill="#0003"/><path d="M20 80h160c0 48-34 70-80 70S20 128 20 80z" fill="${c1}"/><ellipse cx="100" cy="80" rx="80" ry="18" fill="${c2}"/><ellipse cx="100" cy="78" rx="62" ry="12" fill="${c3}"/><circle cx="80" cy="74" r="7" fill="${c2}"/><circle cx="112" cy="80" r="6" fill="#fff6"/><circle cx="126" cy="72" r="5" fill="${c2}"/><g stroke="#fffb" stroke-width="3" stroke-linecap="round" fill="none"><path d="M80 52c-8-10 8-14 0-26"/><path d="M104 54c-8-10 8-14 0-28"/><path d="M128 52c-8-10 8-14 0-24"/></g></svg>`;
+const bottle=(c,l)=>`<svg viewBox="0 0 100 220"><rect x="42" y="4" width="16" height="18" rx="3" fill="#3b2a1a"/><path d="M40 22h20v30c0 14 22 24 22 52v96c0 8-6 14-14 14H32c-8 0-14-6-14-14v-96c0-28 22-38 22-52z" fill="${c}"/><path d="M26 110c4-4 10-4 14 0v90c-8 0-14-4-14-10z" fill="#fff3"/><rect x="26" y="120" width="48" height="60" rx="6" fill="#faf5e9"/><text x="50" y="146" font-size="9" text-anchor="middle" fill="#1f4d3a" font-family="Georgia" font-weight="700">GHANI</text><text x="50" y="162" font-size="10" text-anchor="middle" fill="${c}" font-family="Georgia" font-weight="700">${l}</text></svg>`;
+const D={vegmeal:["#1f4d3a","#d4af5a","#7bb661"],curry:["#8a3b12","#e8a33d","#c0532a"],chicken:["#7a2616","#e07b39","#b8431f"],mutton:["#4a2218","#a8552e","#6d2f1c"],sweet:["#9a6b1c","#f0c75e","#fbe3a1"],pickle:["#5a1a1a","#c8341d","#8c2a1a"],rice:["#23505a","#f3e2a9","#fff4cf"]};
+const A={vegmeal:`<svg viewBox='0 0 200 170'><ellipse cx='100' cy='154' rx='72' ry='8' fill='#0003'/><circle cx='100' cy='82' r='74' fill='#c3c9d1'/><circle cx='100' cy='82' r='67' fill='#eceff3'/><circle cx='68' cy='58' r='17' fill='#b7421c'/><circle cx='68' cy='58' r='12' fill='#e8a33d'/><circle cx='132' cy='58' r='17' fill='#2f7a34'/><circle cx='132' cy='58' r='12' fill='#7bb661'/><circle cx='64' cy='108' r='19' fill='#e2b36a' stroke='#b98840' stroke-width='2'/><circle cx='60' cy='104' r='3' fill='#b98840'/><ellipse cx='122' cy='108' rx='27' ry='19' fill='#fff'/><circle cx='112' cy='104' r='2' fill='#e8dcc0'/><circle cx='126' cy='110' r='2' fill='#e8dcc0'/><circle cx='100' cy='30' r='8' fill='#f2d046'/></svg>`,curry:`<svg viewBox='0 0 200 170'><ellipse cx='100' cy='154' rx='72' ry='8' fill='#0003'/><circle cx='100' cy='82' r='72' fill='#9a4423'/><circle cx='100' cy='82' r='62' fill='#6d2a12'/><circle cx='100' cy='82' r='56' fill='#d0561f'/><path d='M60 82c14-18 28 18 42 0s26 14 40-4' stroke='#fde9c9' stroke-width='5' fill='none' stroke-linecap='round'/><g fill='#f6e3a8'><rect x='74' y='62' width='16' height='16' rx='3' transform='rotate(20 82 70)'/><rect x='110' y='92' width='16' height='16' rx='3' transform='rotate(-15 118 100)'/><rect x='84' y='98' width='15' height='15' rx='3' transform='rotate(35 91 105)'/></g><g fill='#3f8a3a'><circle cx='112' cy='64' r='3'/><circle cx='122' cy='72' r='2.5'/><circle cx='96' cy='84' r='3'/><circle cx='70' cy='90' r='2.5'/></g></svg>`,chicken:`<svg viewBox='0 0 200 170'><ellipse cx='100' cy='154' rx='72' ry='8' fill='#0003'/><circle cx='100' cy='82' r='74' fill='#fff'/><circle cx='100' cy='82' r='64' fill='#f3ede2'/><g transform='rotate(-25 100 60)'><ellipse cx='92' cy='60' rx='34' ry='17' fill='#b8431f'/><ellipse cx='88' cy='54' rx='18' ry='6' fill='#e07b39'/><rect x='120' y='56' width='26' height='7' rx='3' fill='#f6efe0'/><circle cx='148' cy='56' r='5' fill='#f6efe0'/><circle cx='148' cy='63' r='5' fill='#f6efe0'/></g><g transform='translate(8 44) rotate(-25 100 60)'><ellipse cx='92' cy='60' rx='34' ry='17' fill='#a63a1a'/><ellipse cx='88' cy='54' rx='18' ry='6' fill='#e07b39'/><rect x='120' y='56' width='26' height='7' rx='3' fill='#f6efe0'/><circle cx='148' cy='56' r='5' fill='#f6efe0'/><circle cx='148' cy='63' r='5' fill='#f6efe0'/></g><path d='M138 130a24 24 0 0 0 34-34z' fill='#f2d046'/><circle cx='48' cy='118' r='12' fill='none' stroke='#c75fa0' stroke-width='3'/><circle cx='60' cy='128' r='8' fill='none' stroke='#c75fa0' stroke-width='3'/><ellipse cx='52' cy='36' rx='9' ry='5' fill='#3f8a3a'/><ellipse cx='66' cy='30' rx='9' ry='5' fill='#5aa84a'/></svg>`,mutton:`<svg viewBox='0 0 200 170'><ellipse cx='100' cy='154' rx='72' ry='8' fill='#0003'/><circle cx='100' cy='82' r='72' fill='#3a3532'/><circle cx='100' cy='82' r='62' fill='#1f1c1a'/><circle cx='100' cy='82' r='56' fill='#6a2a14'/><g fill='#9a5430'><circle cx='80' cy='66' r='13'/><circle cx='114' cy='74' r='14'/><circle cx='92' cy='102' r='13'/><circle cx='126' cy='104' r='11'/><circle cx='66' cy='96' r='10'/></g><g fill='#c07a4a'><circle cx='76' cy='62' r='4'/><circle cx='110' cy='70' r='4'/><circle cx='88' cy='98' r='4'/></g><g fill='#d6452f'><circle cx='100' cy='52' r='4'/><circle cx='132' cy='84' r='3.5'/><circle cx='70' cy='80' r='3.5'/></g><g fill='#5aa84a'><circle cx='104' cy='88' r='3'/><circle cx='84' cy='80' r='2.5'/><circle cx='118' cy='56' r='2.5'/></g></svg>`,rice:`<svg viewBox='0 0 200 170'><ellipse cx='100' cy='154' rx='72' ry='8' fill='#0003'/><circle cx='100' cy='82' r='74' fill='#b8862d'/><circle cx='100' cy='82' r='65' fill='#d9a441'/><ellipse cx='100' cy='78' rx='52' ry='44' fill='#f1d38a'/><g fill='#f08a2a'><ellipse cx='80' cy='60' rx='10' ry='3' transform='rotate(30 80 60)'/><ellipse cx='112' cy='56' rx='11' ry='3' transform='rotate(-25 112 56)'/><ellipse cx='96' cy='90' rx='10' ry='3' transform='rotate(15 96 90)'/><ellipse cx='124' cy='88' rx='9' ry='3'/></g><g fill='#8a3d1c'><circle cx='88' cy='76' r='9'/><circle cx='116' cy='72' r='8'/><circle cx='104' cy='98' r='8'/></g><ellipse cx='54' cy='124' rx='13' ry='9' fill='#fff'/><circle cx='54' cy='124' r='4.5' fill='#f2c230'/><g fill='#5aa84a'><ellipse cx='138' cy='116' rx='9' ry='5' transform='rotate(-30 138 116)'/><ellipse cx='150' cy='108' rx='9' ry='5' transform='rotate(20 150 108)'/></g></svg>`,sweet:`<svg viewBox='0 0 200 170'><ellipse cx='100' cy='154' rx='72' ry='8' fill='#0003'/><circle cx='100' cy='82' r='70' fill='#efe4cc'/><circle cx='100' cy='82' r='62' fill='#fbf3df'/><circle cx='100' cy='82' r='54' fill='#d8892b'/><g fill='#5a230d'><circle cx='80' cy='66' r='15'/><circle cx='118' cy='66' r='15'/><circle cx='100' cy='94' r='15'/><circle cx='72' cy='98' r='12'/><circle cx='130' cy='98' r='12'/></g><g fill='#9a4a22'><circle cx='75' cy='61' r='4'/><circle cx='113' cy='61' r='4'/><circle cx='95' cy='89' r='4'/></g></svg>`,pickle:`<svg viewBox='0 0 200 170'><ellipse cx='100' cy='156' rx='50' ry='7' fill='#0003'/><rect x='56' y='32' width='88' height='116' rx='18' fill='#7d1f12'/><rect x='62' y='16' width='76' height='22' rx='6' fill='#f2a93b'/><rect x='68' y='76' width='64' height='42' rx='6' fill='#fff8ee'/><text x='100' y='102' font-size='12' text-anchor='middle' fill='#7d1f12' font-family='Georgia' font-weight='700'>PICKLE</text><g fill='#d6452f'><circle cx='76' cy='56' r='6'/><circle cx='100' cy='50' r='5'/><circle cx='124' cy='58' r='6'/></g></svg>`};const dish=k=>A[k];
+const wines=[["grape","Grape Wine","#5b1a3a","GRAPE","Rich, fruity homemade wine from grapes."],["ginger","Ginger Wine","#c9942a","GINGER","Warm, zesty homemade wine with ginger."],["pomegranate","Pomegranate Wine","#a3122e","POMEGR.","Ruby-toned homemade wine from pomegranate."],["chilli","Chilli Wine","#c8341d","CHILLI","A bold homemade wine with a spicy kick."]];
+const menu=[["Sample Veg Meals","Vegetarian","vegmeal","Sample dish. Edit description.",""],["Sample Veg Curry","Vegetarian","curry","Sample dish. Edit description.",""],["Sample Chicken Dish","Non-Vegetarian","chicken","Sample dish. Edit description.",""],["Sample Mutton Dish","Non-Vegetarian","mutton","Sample dish. Edit description.",""],["Sample Rice Dish","Vegetarian","rice","Sample dish. Edit description.",""],["Sample Sweet","Homemade Speciality","sweet","Sample dish. Edit description.",""],["Sample Pickle","Homemade Speciality","pickle","Sample item. Edit description.",""]];
+const cats=[["vegmeal","Vegetarian"],["chicken","Non-Vegetarian"],["pickle","Homemade Specialities"],["sweet","Party Catering"],["rice","Event Catering"],["curry","Family Functions"]];
+const occ=["Wedding","Birthday party","Family function","Party / Event","Corporate event"];
+$("#hs").innerHTML=dish("rice");$("#as").innerHTML=dish("chicken");
+$("#mq").innerHTML=("<span>Vegetarian ✦ Non-Vegetarian ✦ Homemade Specialities ✦ Grape Wine ✦ Ginger Wine ✦ Pomegranate Wine ✦ Chilli Wine ✦ Weddings ✦ Birthdays ✦ Family Functions ✦ </span>").repeat(4);
+$("#why").innerHTML=[["🥘","Freshly prepared"],["🏡","Homemade taste"],["🥗","Veg &amp; non-veg"],["🎉","Many occasions"],["🍷","Homemade wines"],["🤝","Friendly service"]].map(w=>`<div class="card cb rv"><h3>${w[0]} ${w[1]}</h3></div>`).join("");
+$("#occ").innerHTML=occ.slice(0,4).map((o,i)=>`<div class="card cb rv"><div class="art" style="--c:#d4af5a">${dish(["vegmeal","sweet","curry","rice"][i])}</div><h3>${o}</h3><button class="btn b3 sm" data-occ="${o}">Request quote</button></div>`).join("");
+$("#t").innerHTML="<option value=''>Select…</option>"+occ.map(o=>`<option>${o}</option>`).join("")+"<option>Other</option>";
+$("#cats").innerHTML=cats.map(c=>`<div class="card rv"><div class="art">${dish(c[0])}</div><div class="cb"><h3>${c[1]}</h3><button class="btn b3 sm" data-m="Hello! I would like to enquire about ${c[1]}.">Enquire</button></div></div>`).join("");
+const dc=d=>`<div class="card rv"><div class="art" style="--c:${D[d[2]][1]}">${dish(d[2])}</div><div class="cb"><span class="tag ${d[1]=="Non-Vegetarian"?"nv":"veg"}">${d[1]}</span><h3>${E(d[0])}</h3><p>${E(d[3])}</p>${d[4]?`<b>${E(d[4])}</b>`:""}<div class="row" style="margin:6px 0 0"><button class="btn b3 sm" data-add="${E(d[0])}">+ Add to list</button><button class="btn wa sm" data-m="Hello! I would like to enquire about: ${E(d[0])}">WhatsApp</button></div></div></div>`;
+const wc=w=>`<div class="card rv"><div class="art" style="--c:${w[2]}">${bottle(w[2],w[3])}</div><div class="cb"><span class="tag wn">Homemade wine · 21+</span><h3>${w[1]}</h3><p>${w[4]}</p><b>Price on enquiry</b><div class="row" style="margin:6px 0 0"><button class="btn b3 sm" data-add="${w[1]}">+ Add to list</button><button class="btn wa sm" data-m="Hello! I would like to enquire about ${w[1]}.">WhatsApp</button></div></div></div>`;
+$("#feat").innerHTML=menu.slice(0,3).map(dc).join("");$("#wfeat").innerHTML=wines.map(wc).join("");$("#wg").innerHTML=wines.map(wc).join("");
+$("#gl").innerHTML=[...menu.map(m=>`<div style="background:${D[m[2]][0]}">${dish(m[2])}</div>`),...wines.map(w=>`<div style="background:#1b1218;padding:20px 40px">${bottle(w[2],w[3])}</div>`)].join("");
+const cat=["All","Vegetarian","Non-Vegetarian","Homemade Speciality"];let cf="All";
+$("#mc").innerHTML=cat.map(c=>`<button class="${c=="All"?"on":""}" data-c="${c}">${c}</button>`).join("");
+function rm(){const s=$("#q").value.toLowerCase(),r=menu.filter(d=>(cf=="All"||d[1]==cf)&&(d[0]+d[3]).toLowerCase().includes(s));$("#mg").innerHTML=r.length?r.map(dc).join(""):"<p>No dishes found.</p>";hook()}
+$("#q").oninput=rm;
+/* Enquiry list (in memory, mirrored to localStorage when available) */
+let L={};try{L=JSON.parse(localStorage.getItem("gl")||"{}")}catch(e){}
+const sv=()=>{try{localStorage.setItem("gl",JSON.stringify(L))}catch(e){}};
+const lt=()=>Object.entries(L).map(([k,v])=>`• ${k} × ${v}`).join("\n");
+function rl(){const n=Object.values(L).reduce((a,b)=>a+b,0);$("#cn").textContent=n;$("#di").innerHTML=n?Object.entries(L).map(([k,v])=>`<div class="it"><span>${E(k)}</span><span><button data-q="${E(k)}|-1">−</button> ${v} <button data-q="${E(k)}|1">+</button></span></div>`).join(""):"<p class='note'>Nothing added yet.</p>";$("#ds").href=W("Hello Ghani Catering! I would like to enquire about:\n"+lt());$("#ds").style.display=n?"":"none"}
+document.addEventListener("click",e=>{const t=e.target.closest("button,a");if(!t)return;
+if(t.dataset.add){L[t.dataset.add]=(L[t.dataset.add]||0)+1;sv();rl();toast("Added to your enquiry list")}
+if(t.dataset.q){const[k,d]=t.dataset.q.split("|");L[k]=(L[k]||0)+ +d;if(L[k]<=0)delete L[k];sv();rl()}
+if(t.dataset.c){cf=t.dataset.c;document.querySelectorAll("#mc button").forEach(b=>b.classList.toggle("on",b==t));rm()}
+if(t.dataset.occ){location.hash="catering";$("#t").value=t.dataset.occ;setTimeout(()=>$("#bf").scrollIntoView({behavior:"smooth"}),150)}
+if(t.id=="bk")$("#dr").classList.add("on");if(t.id=="dx")$("#dr").classList.remove("on");if(t.id=="mb")$("#nl").classList.toggle("open");
+if(t.id=="ay"){try{sessionStorage.setItem("ok","1")}catch(x){}ok21=true;$("#gate").classList.remove("on")}});
+function hook(){document.querySelectorAll("[data-m]").forEach(a=>{if(a.tagName=="A")a.href=W(a.dataset.m);else a.onclick=()=>window.open(W(a.dataset.m),"_blank","noopener")});document.querySelectorAll(".rv:not(.in)").forEach(e=>io.observe(e));document.querySelectorAll(".card").forEach(c=>{if(c._t)return;c._t=1;c.addEventListener("pointermove",e=>{const r=c.getBoundingClientRect();c.style.setProperty("--ry",((e.clientX-r.left)/r.width-.5)*6+"deg");c.style.setProperty("--rx",-((e.clientY-r.top)/r.height-.5)*6+"deg")});c.addEventListener("pointerleave",()=>{c.style.setProperty("--rx","0deg");c.style.setProperty("--ry","0deg")})})}
+const io=new IntersectionObserver(es=>es.forEach(x=>{if(x.isIntersecting){x.target.classList.add("in");io.unobserve(x.target)}}),{threshold:.08});
+$("#cw").innerHTML=["General enquiry|Hello! I have a general enquiry.","Food menu|Hello! I would like to enquire about your food menu.","Catering booking|Hello! I would like to enquire about a catering booking.","Event quotation|Hello! I would like an event quotation.","Wine enquiry|Hello! I would like to enquire about your wines."].map(x=>{const[a,b]=x.split("|");return`<a class="btn wa" data-m="${b}" target="_blank" rel="noopener">${a}</a>`}).join("");
+/* Router with view transitions */
+let ok21=false;try{ok21=sessionStorage.getItem("ok")=="1"}catch(e){}
+const valid=[...pages.map(p=>p[0]),"privacy","terms"];
+function route(){let h=location.hash.slice(1);if(!valid.includes(h))h="home";
+const go=()=>{document.querySelectorAll(".page").forEach(p=>p.classList.toggle("on",p.id=="p-"+h));document.querySelectorAll("[data-p]").forEach(a=>a.classList.toggle("cur",a.dataset.p==h));$("#nl").classList.remove("open");scrollTo(0,0);$("#gate").classList.toggle("on",h=="wines"&&!ok21);hook()};
+document.startViewTransition?document.startViewTransition(go):go()}
+addEventListener("hashchange",route);
+/* Booking */
+const bf=$("#bf");bf.onsubmit=ev=>{ev.preventDefault();let ok=true;
+bf.querySelectorAll("[required]").forEach(i=>{const e=i.parentNode.querySelector(".err"),v=i.value.trim();let m="";
+if(!v)m="Required";else if(i.id=="p"&&!/^[+\d][\d\s-]{8,14}$/.test(v))m="Enter a valid phone number";else if(i.id=="g"&&+v<1)m="At least 1 guest";else if(i.id=="d"&&new Date(v)<new Date(new Date().toDateString()))m="Choose a future date";
+e.textContent=m;i.setAttribute("aria-invalid",!!m);if(m)ok=false});
+const em=$("#e");if(em.value&&!em.validity.valid){em.parentNode.querySelector(".err").textContent="Invalid email";ok=false}
+if(!ok)return toast("Please fix the highlighted fields");
+const g=i=>$("#"+i).value.trim()||"-";
+let msg=`*Catering Booking Enquiry – Ghani Catering*\nName: ${g("n")}\nPhone: ${g("p")}\nEmail: ${g("e")}\nEvent: ${g("t")}\nDate: ${g("d")}\nTime: ${g("tm")}\nGuests: ${g("g")}\nFood: ${g("fp")}\nPreferences: ${g("pr")}\nLocation: ${g("l")}\nNotes: ${g("a")}`;
+if($("#inc").checked&&Object.keys(L).length)msg+="\n\nItems of interest:\n"+lt();
+msg+="\n\n(Enquiry only. Subject to owner’s confirmation of availability and price.)";
+$("#st").textContent=msg;$("#sl").href=W(msg);$("#sum").style.display="block";$("#sum").scrollIntoView({behavior:"smooth"});toast("Summary ready. Review and send on WhatsApp")};
+function toast(t){const e=$("#toast");e.textContent=t;e.classList.add("on");setTimeout(()=>e.classList.remove("on"),3000)}
+onscroll=()=>$("#top").style.display=scrollY>500?"block":"none";$("#top").onclick=()=>scrollTo({top:0,behavior:"smooth"});
+$(".hero").addEventListener("pointermove",e=>{const r=e.currentTarget.getBoundingClientRect();e.currentTarget.style.setProperty("--mx",e.clientX-r.left+"px");e.currentTarget.style.setProperty("--my",e.clientY-r.top+"px")});
+rm();rl();route();
+</script></body></html>
